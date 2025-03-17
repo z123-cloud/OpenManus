@@ -126,6 +126,7 @@ class BrowserUseTool(BaseTool):
                     "chrome_instance_path",
                     "wss_url",
                     "cdp_url",
+                    "edge_instance_path",
                 ]
 
                 for attr in browser_attrs:

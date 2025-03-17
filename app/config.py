@@ -59,6 +59,9 @@ class BrowserSettings(BaseModel):
     proxy: Optional[ProxySettings] = Field(
         None, description="Proxy settings for the browser"
     )
+    edge_instance_path: Optional[str] = Field(
+        None, description="Path to the Microsoft Edge executable"
+    )
 
 
 class AppConfig(BaseModel):

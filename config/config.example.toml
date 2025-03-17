@@ -55,6 +55,8 @@ temperature = 0.0                      # Controls randomness for vision model
 #wss_url = ""
 # Connect to a browser instance via CDP
 #cdp_url = ""
+# Path to the Microsoft Edge executable
+#edge_instance_path = ""
 
 # Optional configuration, Proxy settings for the browser
 # [browser.proxy]
